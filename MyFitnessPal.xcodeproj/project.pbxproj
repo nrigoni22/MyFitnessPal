@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		401FE820292D04EA005A6000 /* ActivityRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FE81F292D04EA005A6000 /* ActivityRingView.swift */; };
+		40D263AF29229D6300FC5FF8 /* MyFitnessPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D263AE29229D6300FC5FF8 /* MyFitnessPalApp.swift */; };
+		40D263B329229D6400FC5FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D263B229229D6400FC5FF8 /* Assets.xcassets */; };
+		40D263B629229D6400FC5FF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D263B529229D6400FC5FF8 /* Preview Assets.xcassets */; };
+		40D263D32922A1C500FC5FF8 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D263D22922A1C500FC5FF8 /* TabBarView.swift */; };
+		40D263D52922A43B00FC5FF8 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D263D42922A43B00FC5FF8 /* FoodModel.swift */; };
+		40D263D72922A94100FC5FF8 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D263D62922A94100FC5FF8 /* TabBarViewModel.swift */; };
+		40D263DB2922AFFC00FC5FF8 /* HKRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D263DA2922AFFC00FC5FF8 /* HKRepository.swift */; };
+		40D263DD2924FAD600FC5FF8 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D263DC2924FAD600FC5FF8 /* DashboardView.swift */; };
+		40D263DF292529B300FC5FF8 /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D263DE292529B300FC5FF8 /* DiaryView.swift */; };
+		40D263E1292680E400FC5FF8 /* MealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D263E0292680E400FC5FF8 /* MealModel.swift */; };
+		40D263E629268E0300FC5FF8 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D263E529268E0300FC5FF8 /* AddFoodView.swift */; };
+		40D263E82926903400FC5FF8 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D263E72926903400FC5FF8 /* CameraView.swift */; };
+		40D263EA2926903E00FC5FF8 /* ScannerView+Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D263E92926903E00FC5FF8 /* ScannerView+Coordinator.swift */; };
+		40D263EC2926904500FC5FF8 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D263EB2926904500FC5FF8 /* ScannerView.swift */; };
+		40D263EE2927AE7100FC5FF8 /* FoodDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D263ED2927AE7100FC5FF8 /* FoodDataView.swift */; };
+		40D263F2292B7E6600FC5FF8 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D263F1292B7E6600FC5FF8 /* Date.swift */; };
+		40D263F4292CC97300FC5FF8 /* DiaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D263F3292CC97300FC5FF8 /* DiaryModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		401FE81F292D04EA005A6000 /* ActivityRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingView.swift; sourceTree = "<group>"; };
+		40D263AB29229D6300FC5FF8 /* MyFitnessPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFitnessPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D263AE29229D6300FC5FF8 /* MyFitnessPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFitnessPalApp.swift; sourceTree = "<group>"; };
+		40D263B229229D6400FC5FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40D263B529229D6400FC5FF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40D263D22922A1C500FC5FF8 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		40D263D42922A43B00FC5FF8 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		40D263D62922A94100FC5FF8 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		40D263D82922AEC400FC5FF8 /* MyFitnessPal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyFitnessPal.entitlements; sourceTree = "<group>"; };
+		40D263DA2922AFFC00FC5FF8 /* HKRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKRepository.swift; sourceTree = "<group>"; };
+		40D263DC2924FAD600FC5FF8 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		40D263DE292529B300FC5FF8 /* DiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryView.swift; sourceTree = "<group>"; };
+		40D263E0292680E400FC5FF8 /* MealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealModel.swift; sourceTree = "<group>"; };
+		40D263E529268E0300FC5FF8 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		40D263E72926903400FC5FF8 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		40D263E92926903E00FC5FF8 /* ScannerView+Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScannerView+Coordinator.swift"; sourceTree = "<group>"; };
+		40D263EB2926904500FC5FF8 /* ScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		40D263ED2927AE7100FC5FF8 /* FoodDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDataView.swift; sourceTree = "<group>"; };
+		40D263F1292B7E6600FC5FF8 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		40D263F3292CC97300FC5FF8 /* DiaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40D263A829229D6300FC5FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40D263A229229D6200FC5FF8 = {
+			isa = PBXGroup;
+			children = (
+				40D263AD29229D6300FC5FF8 /* MyFitnessPal */,
+				40D263AC29229D6300FC5FF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40D263AC29229D6300FC5FF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40D263AB29229D6300FC5FF8 /* MyFitnessPal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40D263AD29229D6300FC5FF8 /* MyFitnessPal */ = {
+			isa = PBXGroup;
+			children = (
+				40D263D82922AEC400FC5FF8 /* MyFitnessPal.entitlements */,
+				40D263C02922A02500FC5FF8 /* Utilities */,
+				40D263BF2922A01800FC5FF8 /* Extensions */,
+				40D263BE2922A00800FC5FF8 /* Services */,
+				40D263D92922AFE900FC5FF8 /* Repository */,
+				40D263BD29229FF500FC5FF8 /* Models */,
+				40D263BC29229FDE00FC5FF8 /* Core */,
+				40D263AE29229D6300FC5FF8 /* MyFitnessPalApp.swift */,
+				40D263B229229D6400FC5FF8 /* Assets.xcassets */,
+				40D263B429229D6400FC5FF8 /* Preview Content */,
+			);
+			path = MyFitnessPal;
+			sourceTree = "<group>";
+		};
+		40D263B429229D6400FC5FF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40D263B529229D6400FC5FF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40D263BC29229FDE00FC5FF8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				40D263CF2922A18000FC5FF8 /* Settings */,
+				40D263CC2922A15D00FC5FF8 /* Newsfeed */,
+				40D263E229268DD300FC5FF8 /* AddFood */,
+				40D263C92922A0FA00FC5FF8 /* Diary */,
+				40D263C62922A0E400FC5FF8 /* Dashboard */,
+				40D263C32922A07000FC5FF8 /* TabBar */,
+				40D263C12922A05300FC5FF8 /* Components */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		40D263BD29229FF500FC5FF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				40D263D42922A43B00FC5FF8 /* FoodModel.swift */,
+				40D263E0292680E400FC5FF8 /* MealModel.swift */,
+				40D263F3292CC97300FC5FF8 /* DiaryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		40D263BE2922A00800FC5FF8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		40D263BF2922A01800FC5FF8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40D263F1292B7E6600FC5FF8 /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		40D263C02922A02500FC5FF8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		40D263C12922A05300FC5FF8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		40D263C32922A07000FC5FF8 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				40D263C52922A0BC00FC5FF8 /* ViewModel */,
+				40D263C42922A0A400FC5FF8 /* Views */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		40D263C42922A0A400FC5FF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40D263D22922A1C500FC5FF8 /* TabBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40D263C52922A0BC00FC5FF8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				40D263D62922A94100FC5FF8 /* TabBarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		40D263C62922A0E400FC5FF8 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				40D263C82922A0F100FC5FF8 /* ViewModel */,
+				40D263C72922A0EB00FC5FF8 /* Views */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		40D263C72922A0EB00FC5FF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40D263DC2924FAD600FC5FF8 /* DashboardView.swift */,
+				401FE81F292D04EA005A6000 /* ActivityRingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40D263C82922A0F100FC5FF8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		40D263C92922A0FA00FC5FF8 /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				40D263CB2922A14400FC5FF8 /* ViewModel */,
+				40D263CA2922A13C00FC5FF8 /* Views */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		40D263CA2922A13C00FC5FF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40D263DE292529B300FC5FF8 /* DiaryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40D263CB2922A14400FC5FF8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		40D263CC2922A15D00FC5FF8 /* Newsfeed */ = {
+			isa = PBXGroup;
+			children = (
+				40D263CE2922A17600FC5FF8 /* ViewModel */,
+				40D263CD2922A16D00FC5FF8 /* Views */,
+			);
+			path = Newsfeed;
+			sourceTree = "<group>";
+		};
+		40D263CD2922A16D00FC5FF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40D263CE2922A17600FC5FF8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		40D263CF2922A18000FC5FF8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				40D263D12922A19100FC5FF8 /* ViewModel */,
+				40D263D02922A18C00FC5FF8 /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		40D263D02922A18C00FC5FF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40D263D12922A19100FC5FF8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		40D263D92922AFE900FC5FF8 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				40D263DA2922AFFC00FC5FF8 /* HKRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		40D263E229268DD300FC5FF8 /* AddFood */ = {
+			isa = PBXGroup;
+			children = (
+				40D263E429268DED00FC5FF8 /* ViewModel */,
+				40D263E329268DE600FC5FF8 /* Views */,
+			);
+			path = AddFood;
+			sourceTree = "<group>";
+		};
+		40D263E329268DE600FC5FF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40D263EB2926904500FC5FF8 /* ScannerView.swift */,
+				40D263E72926903400FC5FF8 /* CameraView.swift */,
+				40D263E92926903E00FC5FF8 /* ScannerView+Coordinator.swift */,
+				40D263E529268E0300FC5FF8 /* AddFoodView.swift */,
+				40D263ED2927AE7100FC5FF8 /* FoodDataView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40D263E429268DED00FC5FF8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40D263AA29229D6300FC5FF8 /* MyFitnessPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D263B929229D6400FC5FF8 /* Build configuration list for PBXNativeTarget "MyFitnessPal" */;
+			buildPhases = (
+				40D263A729229D6300FC5FF8 /* Sources */,
+				40D263A829229D6300FC5FF8 /* Frameworks */,
+				40D263A929229D6300FC5FF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFitnessPal;
+			productName = MyFitnessPal;
+			productReference = 40D263AB29229D6300FC5FF8 /* MyFitnessPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40D263A329229D6200FC5FF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					40D263AA29229D6300FC5FF8 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 40D263A629229D6200FC5FF8 /* Build configuration list for PBXProject "MyFitnessPal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40D263A229229D6200FC5FF8;
+			productRefGroup = 40D263AC29229D6300FC5FF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40D263AA29229D6300FC5FF8 /* MyFitnessPal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40D263A929229D6300FC5FF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D263B629229D6400FC5FF8 /* Preview Assets.xcassets in Resources */,
+				40D263B329229D6400FC5FF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40D263A729229D6300FC5FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D263D72922A94100FC5FF8 /* TabBarViewModel.swift in Sources */,
+				40D263F4292CC97300FC5FF8 /* DiaryModel.swift in Sources */,
+				40D263DD2924FAD600FC5FF8 /* DashboardView.swift in Sources */,
+				40D263E1292680E400FC5FF8 /* MealModel.swift in Sources */,
+				40D263EE2927AE7100FC5FF8 /* FoodDataView.swift in Sources */,
+				40D263E82926903400FC5FF8 /* CameraView.swift in Sources */,
+				40D263D32922A1C500FC5FF8 /* TabBarView.swift in Sources */,
+				40D263DF292529B300FC5FF8 /* DiaryView.swift in Sources */,
+				40D263AF29229D6300FC5FF8 /* MyFitnessPalApp.swift in Sources */,
+				401FE820292D04EA005A6000 /* ActivityRingView.swift in Sources */,
+				40D263DB2922AFFC00FC5FF8 /* HKRepository.swift in Sources */,
+				40D263F2292B7E6600FC5FF8 /* Date.swift in Sources */,
+				40D263EA2926903E00FC5FF8 /* ScannerView+Coordinator.swift in Sources */,
+				40D263EC2926904500FC5FF8 /* ScannerView.swift in Sources */,
+				40D263D52922A43B00FC5FF8 /* FoodModel.swift in Sources */,
+				40D263E629268E0300FC5FF8 /* AddFoodView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		40D263B729229D6400FC5FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40D263B829229D6400FC5FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40D263BA29229D6400FC5FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyFitnessPal/MyFitnessPal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyFitnessPal/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WZJ93Q5VZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is needed to capture the barcodes.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Need access to health records to save more datas";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Need access to health records to save more datas";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolarigoni.MyFitnessPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		40D263BB29229D6400FC5FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyFitnessPal/MyFitnessPal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyFitnessPal/Preview Content\"";
+				DEVELOPMENT_TEAM = 2WZJ93Q5VZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is needed to capture the barcodes.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Need access to health records to save more datas";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Need access to health records to save more datas";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolarigoni.MyFitnessPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40D263A629229D6200FC5FF8 /* Build configuration list for PBXProject "MyFitnessPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D263B729229D6400FC5FF8 /* Debug */,
+				40D263B829229D6400FC5FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D263B929229D6400FC5FF8 /* Build configuration list for PBXNativeTarget "MyFitnessPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D263BA29229D6400FC5FF8 /* Debug */,
+				40D263BB29229D6400FC5FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40D263A329229D6200FC5FF8 /* Project object */;
+}
